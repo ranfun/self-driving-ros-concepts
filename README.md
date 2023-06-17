@@ -3,7 +3,7 @@ This repository contains a collection of code examples and implementations showc
 
 ## Programs and Functionalities
 
-# turtlesim_teleop
+## turtlesim_teleop
 turtlesim_teleop.py: This program allows the user to control the movement of a turtle using customizable keys. Users can define their preferred keys for forward, backward, left, and right movements.
 
 ## swim
