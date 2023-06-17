@@ -2,7 +2,6 @@
 This repository contains a collection of code examples and implementations showcasing various concepts used in autonomous vehicles and self-driving cars, utilizing the Robot Operating System (ROS). The repository focuses on fundamental components such as localization, mapping, path planning, and motion control.
 
 ## Programs and Functionalities
-
 ## turtlesim_teleop
 turtlesim_teleop.py: This program allows the user to control the movement of a turtle using customizable keys. Users can define their preferred keys for forward, backward, left, and right movements.
 
