@@ -10,7 +10,7 @@ swim.py: In this program, the turtle moves in a figure-eight (8) shape, demonstr
 swim_to_goal.py: The turtle in this program swims towards a goal point specified by the user.
 
 ## PID_Controller
-As the name suggests, this node implements a Proportional-Integral-Derivative (PID) controller. Users can configure the controller's parameters (kp, ki, kd) to their liking, allowing the turtle to move towards a specific inputted point.
+As the name suggests, this node implements a Proportional-Integral-Derivative (PID) controller. Users can configure the controller's parameters (kp, ki, kd) to their liking, allowing the gazebo bot to move towards a specific inputted point.
 
 ## Path_Planning
 
@@ -18,19 +18,20 @@ This program implements the Rapidly-Exploring Random Tree (RRT) algorithm. Users
 
 ## Motion_Planning
 
-This program combines the functionality of path planning and the PID controller. Users are prompted to provide initial and final points, and the turtle is guided to the destination based on the generated trajectory and PID control.
+This program combines the functionality of path planning and the PID controller. Users are prompted to provide initial and final points, and the gazebo bot is guided to the destination based on the generated trajectory and PID control.
 
 ## Motion_Planning_Imitation_Learning
 This section focuses on motion planning using neural network-based controllers.
 
 data_collection.py: This script is used to collect a dataset with a 1:1 correspondence, which is necessary for training a neural network.
 check_layers.py: This script returns the names of the layers in the neural network. Users need to adjust the layers in the NN_Controller.py script accordingly.
-motion_planner.py: Users can input a point to which they want the turtle to move using this program.
-NN_Controller.py: This script implements a neural network-based motion controller. It utilizes the training data to guide the turtle towards the specified point.
+motion_planner.py: Users can input a point to which they want the bot to move using this program.
+NN_Controller.py: This script implements a neural network-based motion controller. It utilizes the training data to guide the gazebo bot towards the specified point. 
+
+I have attached my model for reference as well. Data is collected by using the 2D Navigation tool on RViz and gazebo, and running the data_collection script parallely.
 
 # Getting Started
 Clone the repository to your local machine using the following command:
-Copy code
 ```
 git clone https://github.com/your-username/self-driving-ros-concepts.git
 ```
